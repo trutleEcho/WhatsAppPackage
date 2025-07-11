@@ -9,11 +9,9 @@ version = "1.0.0"
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
 }
 
 dependencies {
-    implementation("com.github.trutleEcho:whatsapp-lib:1.0.0")
     implementation("io.ktor:ktor-client-core-jvm:2.3.7")
     implementation("io.ktor:ktor-client-cio-jvm:2.3.7")
     implementation("io.ktor:ktor-client-content-negotiation-jvm:2.3.7")
